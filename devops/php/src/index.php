@@ -63,7 +63,7 @@ if (!$connect) {
         </div>
       </div>
     </div>
-    <!-- This is index.php 2nd trial -->
+    <!-- This is index.php 3rd trial -->
     <div class="forms">
         <div class="form-content">
           <div class="login-form">
