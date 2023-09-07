@@ -63,7 +63,7 @@ if (!$connect) {
         </div>
       </div>
     </div>
-    
+    <!-- This is index.php -->
     <div class="forms">
         <div class="form-content">
           <div class="login-form">
