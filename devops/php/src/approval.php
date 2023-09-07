@@ -253,39 +253,28 @@ body {
         {
           
           echo "<img src='Images/APPROVED.png' ><br>";
+          echo "LeaveTo: ".$user['clORrh']."<br>";
           echo "Leave From: ".$user['leaveFrom']."<br>";
                echo "LeaveTo: ".$user['leaveTo']."<br>";
+               
 
         }
         else if($user['status']==-1)
         {
-          
           echo "<img src='Images/NOT APPROVED.png' ><br>";
+          echo "LeaveTo: ".$user['clORrh']."<br>";
           echo "Leave From: ".$user['leaveFrom']."<br>";
                echo "LeaveTo: ".$user['leaveTo']."<br>";
 
         }
         else{
           echo "<img src='Images/pending.jpg' ><br>";
+          echo "LeaveTo: ".$user['clORrh']."<br>";
           echo "Leave From: ".$user['leaveFrom']."<br>";
                echo "LeaveTo: ".$user['leaveTo']."<br>";
         }
       }
           ?>
-          
-
-<!-- <h3>APPROVED</h3>
-<img src="./Images/APPROVED.png" alt="Approved">
-</center> 
-    </div>
-    <center>
-<h2>Details:</h2>
-<p style="font-size: large;">Number of days: 3<br>
-From: 10/1/2023<br>
-To: 12/1/2023<br>
-Approved by: HOD of the department<br>
-Approved to: The Faculty name
-</p> -->
 </center>
 </div>
 
