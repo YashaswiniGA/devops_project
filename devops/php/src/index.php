@@ -64,6 +64,7 @@ if (!$connect) {
       </div>
     </div>
     <!-- This is index.php 4th trial -->
+    <!-- This is index.php 5th trial -->
     <div class="forms">
         <div class="form-content">
           <div class="login-form">
