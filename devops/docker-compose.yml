@@ -10,7 +10,7 @@ services:
         volumes:
             - ./php/src:/var/www/html/
         ports:
-            - 8888:80
+            - 8000:80
 
     db:
         container_name: db
