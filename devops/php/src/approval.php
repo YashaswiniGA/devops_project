@@ -253,7 +253,7 @@ body {
         {
           
           echo "<img src='Images/APPROVED.png' ><br>";
-          echo "Type of leave: ".$user['clORrh']."<br>";
+          echo "Type: ".$user['clORrh']."<br>";
           echo "Leave From: ".$user['leaveFrom']."<br>";
                echo "LeaveTo: ".$user['leaveTo']."<br>";
                
@@ -262,14 +262,14 @@ body {
         else if($user['status']==-1)
         {
           echo "<img src='Images/NOT APPROVED.png' ><br>";
-          echo "Type of Leave: ".$user['clORrh']."<br>";
+          echo "Type: ".$user['clORrh']."<br>";
           echo "Leave From: ".$user['leaveFrom']."<br>";
                echo "LeaveTo: ".$user['leaveTo']."<br>";
 
         }
         else{
           echo "<img src='Images/pending.jpg' ><br>";
-          echo "Type of Leave: ".$user['clORrh']."<br>";
+          echo "Type: ".$user['clORrh']."<br>";
           echo "Leave From: ".$user['leaveFrom']."<br>";
                echo "LeaveTo: ".$user['leaveTo']."<br>";
         }
